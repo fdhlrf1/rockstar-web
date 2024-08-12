@@ -1,0 +1,193 @@
+@font-face{
+    font-family: HelveticaNowDisplaybold;
+    src: url(../font/Helvetica_Now/3-Helvetica_Now_Display/HelveticaNowDisplay-Bold.otf);
+}
+@font-face{
+    font-family: HelveticaNowTextbold;
+    src: url(../font/Helvetica_Now/1-Helvetica_Now_Text/HelveticaNowText-Bold.otf);
+}
+@font-face{
+    font-family: HelveticaNowTextregular;
+    src: url(../font/Helvetica_Now/1-Helvetica_Now_Text/HelveticaNowText-Regular.otf);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.Position-Games{
+    padding: 0px 70px 0px 70px;
+    background-color: #0b0b0b;
+
+}
+   
+
+.Position-Footer{
+    padding: 70px 70px 0px 70px;
+ 
+}
+h1{
+    font-family: HelveticaNowDisplaybold;
+    font-size: 22px;
+    color: #fff;
+}
+h2{
+      font-family: HelveticaNowDisplaybold;
+    font-size: 27px;
+    color: #fff;
+    padding-top: 90px;
+    padding-bottom: 30px;
+ 
+}
+
+
+/*-------Header dan Nav-------*/
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    background-color: #000;
+    justify-content: space-around;
+    align-items: center;
+    padding-block: 1rem;
+    z-index: 999;
+    border-bottom: 1px solid #282828;
+}
+header span{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+.ico{
+    width: 42px;
+}
+nav{
+    width:40% ;
+}
+nav ul {
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+  }
+nav li {
+    font-family: HelveticaNowDisplaybold;
+    list-style-type: none;
+    font-size: 20px;
+  }
+nav li a{
+    text-decoration: none;
+
+    color: #fff;
+    padding:  0.3rem;
+    border-radius: 999px;
+    transition: all 0.2s ease-in-out;   
+}
+nav li a:hover{
+    
+    color: #fcaf17;
+}
+
+
+/*-------Games-------*/
+#news_wire{
+    display: flex;
+    gap: 1.6rem;
+    padding-bottom: 30px;
+  
+
+}
+.kotak-konten{
+    width: 380px;
+    height: 480px;
+    background-color: #000;
+    border: solid 1px;
+    border-color: #282828;
+}
+.gambar-konten{
+    width: 380px;
+    height: 480px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  ;
+    border: solid 1px color #f3ecec ;
+}
+
+
+.menu{
+    display: none;
+}
+
+a{
+    text-decoration: none;
+}
+.view:hover{
+    transition: all 0.2s ease-in-out; 
+    color: #fcaf17;
+
+}
+.border{
+    margin-left: 550px;
+    text-align: center;
+    width: 105px;
+    border: solid 2px;
+    color: #fcaf17;
+    border-radius: 3px;
+}
+
+
+footer{
+    height: 260px;
+    width: 100%;
+    background-color: #000000;
+    
+}
+.kaki{
+    font-family: HelveticaNowDisplaybold;
+    font-size: 15px;
+    list-style: none;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    
+    justify-content: space-between;
+    color: #f3ecec;
+}
+.hakcipta{
+    height: 60px;
+ 
+}
+.kota{
+    display: flex;
+    width: 25%;
+    justify-content: space-evenly;
+    text-align: center;
+    color: #f3ecec;
+}
+.copyright{
+    text-align: center;
+    font-family: HelveticaNowDisplayBold;
+    font-size: 17px;
+    color: #f3ecec;
+    height: 60px;
+    
+}
+.cpr{
+    font-family: HelveticaNowDisplayBold;
+    color: #282828;
+    
+}
+.cpr:hover{
+   
+    color: #fcaf17;
+    transition: all ease-in-out .2s;
+    
+}
+p{
+    color: red;
+    font-family: HelveticaNowTextregular;
+    font-size: 14px;
+}

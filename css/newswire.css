@@ -1,0 +1,277 @@
+@font-face{
+    font-family: HelveticaNowDisplaybold;
+    src: url(../font/Helvetica_Now/3-Helvetica_Now_Display/HelveticaNowDisplay-Bold.otf);
+}
+@font-face{
+    font-family: HelveticaNowTextbold;
+    src: url(../font/Helvetica_Now/1-Helvetica_Now_Text/HelveticaNowText-Bold.otf);
+}
+@font-face{
+    font-family: HelveticaNowTextregular;
+    src: url(../font/Helvetica_Now/1-Helvetica_Now_Text/HelveticaNowText-Regular.otf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+.Position{
+    padding: 0 70px 70px 70px;
+    background-color: #0b0b0b;
+}
+.Position-Footer{
+    padding: 70px 70px 0px 70px;
+ 
+}
+h1{
+    font-family: HelveticaNowDisplaybold;
+    font-size: 22px;
+    color: #fff;
+}
+h2{
+      font-family: HelveticaNowDisplaybold;
+    font-size: 27px;
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 30px;
+ 
+}
+h3{
+    font-family: HelveticaNowDisplaybold;
+    font-size: 27px;
+    color: #fff;
+}
+h4{
+    font-family: HelveticaNowTextregular;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+h5{
+    font-family: HelveticaNowDisplaybold;
+    font-size: 16px;
+    color: #fff;   
+}
+h6{
+    font-family: HelveticaNowDisplaybold;
+    font-size: 16px;
+    color: #fff;
+  
+    
+
+}
+
+/*-------Header dan Nav-------*/
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    background-color: #000;
+    justify-content: space-around;
+    align-items: center;
+    padding-block: 1rem;
+    z-index: 999;
+    border-bottom: 1px solid #282828;
+}
+header span{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+.ico{
+    width: 42px;
+}
+nav{
+    width:40% ;
+}
+nav ul {
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+  }
+nav li {
+    font-family: HelveticaNowDisplaybold;
+    list-style-type: none;
+    font-size: 20px;
+  }
+nav li a{
+    text-decoration: none;
+
+    color: #fff;
+    padding:  0.3rem;
+    border-radius: 999px;
+    transition: all 0.2s ease-in-out;   
+}
+nav li a:hover{
+    
+    color: #fcaf17;
+}
+
+/*-------Background-------*/
+#awal{
+    margin-top: 72px;
+    background-color: #000;
+    display: flex;
+    padding-bottom: 30px;
+   
+}
+.bg{
+    width: 1500px;
+}
+#nama-Game{
+    color: #fff;
+    margin-top: 40px;
+    padding: 20px 0 0px 70px;
+    font-size: 14px;
+    font-family: HelveticaNowDisplaybold;
+}
+#deskripsi{
+    color: #fff;
+    padding: 20px 0 40px 70px;
+    font-size: 40px;
+    font-family: HelveticaNowDisplaybold;
+}
+#box{
+    height: 60px;
+    width: 240px;
+    background-color: #000;
+    margin: 0 0 0 70px;
+
+    border: solid 2px;
+    border-radius: 8px;
+    border-color: #fff;
+
+}
+#box:hover{
+    color: #000;
+    border-color: #282828;
+    background-color: #fcaf17;
+    transition: all 0.2s ease-in-out;  
+}
+#tonton{
+    color: #fff;
+    padding: 17px 0 0px 60px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: HelveticaNowTextbold;
+}
+#tonton:hover{
+    color: #000;
+    transition: all 0.2s ease-in-out;  
+}
+
+
+/*header*/
+#news_wire{
+    display: flex;
+    gap: 2.5rem;
+    padding-bottom:30px;
+    padding-top: 80px;
+  
+
+}
+.kotak-konten{
+    width: 370px;
+    height: 600px;
+    background-color: #000;
+    border: solid 1px;
+    border-color: #282828;
+}
+.gambar-konten{
+    width: 370px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    aspect-ratio: 1/1;
+    border: solid 1px color #f3ecec ;
+}
+.flex-text{
+    display: flex;
+    padding-bottom: 10px;
+    gap: 1rem;
+}
+.position-text-konten{
+    padding: 30px 30px 10px 30px;
+}
+
+
+a{
+    text-decoration: none;
+}
+.view{
+    padding-top: 30px;
+}
+.view:hover{
+  
+    transition: all 0.2s ease-in-out; 
+    color: #fcaf17;
+
+}
+
+
+
+
+
+
+footer{
+    height: 260px;
+    width: 100%;
+    background-color: #000000;
+    
+}
+.kaki{
+    font-family: HelveticaNowDisplaybold;
+    font-size: 15px;
+    list-style: none;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    
+    justify-content: space-between;
+    color: #f3ecec;
+}
+.hakcipta{
+    height: 60px;
+ 
+}
+.kota{
+    display: flex;
+    width: 25%;
+    justify-content: space-evenly;
+    text-align: center;
+    color: #f3ecec;
+}
+.copyright{
+    text-align: center;
+    font-family: HelveticaNowDisplayBold;
+    font-size: 17px;
+    color: #f3ecec;
+    height: 60px;
+    
+}
+.cpr{
+    font-family: HelveticaNowDisplayBold;
+    color: #282828;
+    
+}
+.cpr:hover{
+
+    color: #fcaf17;
+    transition: ease-in-out all .2s;
+    
+}
+p{
+    color: red;
+    font-family: HelveticaNowTextregular;
+    font-size: 14px;
+}
+.menu{
+    display: none;
+}
+
+
+
